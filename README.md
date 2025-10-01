@@ -6,7 +6,6 @@ This repository contains:
 
 - A minimal Flask login page with intentionally weak security controls (for learning).
 - A simulated “attacker” script that brute-forces credentials against the local demo server.
-- An optional demo video: `Website_Security_Breach_Analyzing the_Code_and_Attack..mp4`.
 
 Use this only in your own, isolated test environment. Never point the attack script at systems you do not own or lack explicit permission to test.
 
@@ -26,8 +25,6 @@ Watch the walkthrough video here: - https://www.facebook.com/share/v/1a9eWZyEM7/
 - `Attack (Open with other vsCode window)/`
   - `Attcking Code.py` — A simple credential enumeration script (lab-only) that tries common username/password pairs against the local login page.
   
-- `Website_Security_Breach_Analyzing the_Code_and_Attack..mp4` — Demo/overview video (optional).
-
 ---
 
 ## What you’ll learn
