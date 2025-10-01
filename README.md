@@ -22,8 +22,10 @@ Watch the walkthrough video here: - https://www.facebook.com/share/v/1a9eWZyEM7/
 
 - `LoginPage/`
   - `Login_Page.py` — Flask app serving a basic login at `http://localhost:8080/login`.
+  
 - `Attack (Open with other vsCode window)/`
   - `Attcking Code.py` — A simple credential enumeration script (lab-only) that tries common username/password pairs against the local login page.
+  
 - `Website_Security_Breach_Analyzing the_Code_and_Attack..mp4` — Demo/overview video (optional).
 
 ---
