@@ -84,8 +84,10 @@ Expected behavior: the script tries a small list of username/password pairs; wit
 - The Flask app stores a single user in memory:
   - Username: `administrator_`
   - Password: `admin_123`
+  
 - The username field is superficially validated via a regex: `^[a-zA-Z0-9_]+$`.
   - This illustrates a common misconception: input validation helps with hygiene, but it does not prevent credential stuffing or brute force.
+  
 - Missing controls by design (for learning):
   - No password hashing (plain-text in memory)
   - No rate limiting or exponential backoff
